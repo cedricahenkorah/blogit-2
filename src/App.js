@@ -13,8 +13,12 @@ import Feed from "./pages/Feed/Feed";
 import Landing from "./pages/landing/Landing";
 import Create from "./pages/create/Create";
 import Profile from "./pages/profile/Profile";
-import Navbar from "./components/Navbar";
 import Sidebars from "./components/Sidebar";
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   const { user, authIsReady } = useAuthContext();
