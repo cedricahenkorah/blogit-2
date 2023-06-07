@@ -88,7 +88,7 @@ export default function Footer() {
                 </li>
                 <li className="lg:mb-4 mb-2">
                   <Link to="/login" className="hover:underline">
-                    Try Dema
+                    Try Demo
                   </Link>
                 </li>
               </ul>
