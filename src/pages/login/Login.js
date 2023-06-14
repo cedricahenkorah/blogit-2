@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useLogin } from "../../hooks/useLogin";
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("test@mail.com");
+  const [password, setPassword] = useState("test123");
   const { login, error, isPending } = useLogin();
 
   const handleSubmit = (e) => {
@@ -17,6 +17,7 @@ export default function Login() {
       onSubmit={handleSubmit}
     >
       <h2 className="text-3xl font-bold">Login</h2>
+      <p>test user is available for use</p>
       <label>
         <span>email</span>
         <input
@@ -24,7 +25,6 @@ export default function Login() {
           required
           onChange={(e) => setEmail(e.target.value)}
           value={email}
-          placeholder="test@mail.com"
         />
       </label>
       <label htmlFor="">
@@ -34,7 +34,6 @@ export default function Login() {
           required
           onChange={(e) => setPassword(e.target.value)}
           value={password}
-          placeholder="test123"
         />
       </label>
 
