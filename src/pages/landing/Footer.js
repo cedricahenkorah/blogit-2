@@ -5,18 +5,15 @@ export default function Footer() {
   return (
     <footer className="px-10 lg:px-40 py-10 bg-indigo-900">
       <div className="mx-auto max-w-screen-xl">
-        <div className="md:flex md:justify-between">
+        <div className="lg:flex lg:justify-between">
           <div className="mb-6 md:mb-0">
             <h1 className="flex items-center font-bold text-amber-400 text-xl">
               BlogIt
-              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
-              </span> */}
             </h1>
 
             <div className="relative isolate overflow-hidden py-10 sm:py-24 lg:py-32">
               <div className="mx-auto max-w-7xl ">
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+                <div className="lg:mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                   <div className="max-w-xl lg:max-w-lg">
                     <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                       Subscribe to our newsletter.
@@ -51,7 +48,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="grid ">
+          <div className="lg:w-80">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-white">
                 Contact us
