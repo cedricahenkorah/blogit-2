@@ -29,18 +29,18 @@ export default function Create() {
       return;
     }
 
-    // const createdBy = {
-    //   displayName: user.displayName,
-    //   photoURL: user.photoURL,
-    //   id: user.uid,
-    // };
+    const createdBy = {
+      displayName: user.displayName,
+      photoURL: user.photoURL,
+      id: user.uid,
+    };
 
     const blog = {
       name,
       details,
       category: category.value,
       comments: [],
-      // createdBy,
+      createdBy,
       createdAt: timestamp.fromDate(new Date()),
     };
 
