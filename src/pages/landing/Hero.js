@@ -16,12 +16,7 @@ export default function Hero() {
           </h1>
         </div>
 
-        <div
-          className="lg:flex-1 h-full lg:h-0 flex lg:items-center items-start"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <div className="lg:flex-1 h-full lg:h-0 flex lg:items-center items-start">
           <img src={icon} alt="landing" className="lg:h-auto h-[300px]" />
 
           {/* <h1>hello world</h1> */}
