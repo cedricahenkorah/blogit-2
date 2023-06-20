@@ -37,7 +37,7 @@ export default function BlogSummary({ blog }) {
             addSuffix: true,
           })}
         </p>
-        <div className="bg-indigo-100 rounded p-3 mt-5">
+        <div className="bg-white rounded p-3 mt-5">
           <p className="details">{blog.details}</p>
         </div>
       </div>
