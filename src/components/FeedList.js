@@ -21,7 +21,7 @@ export default function FeedList({ blogs }) {
               <Link to={`/blogs/${blog.id}`} key={blog.id}>
                 <article
                   key={blog.id}
-                  className="flex max-w-xl flex-col items-start justify-between bg-white p-4 rounded-md"
+                  className="flex max-w-xl flex-col items-start justify-between bg-white p-4 rounded-md shadow-lg"
                 >
                   <div className="flex items-center gap-x-4 text-xs">
                     {/* <time dateTime={post.datetime} className="text-gray-500">

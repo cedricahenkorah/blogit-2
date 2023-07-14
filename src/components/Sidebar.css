@@ -50,3 +50,18 @@
 .sidebar .links .active img {
   filter: invert(40%);
 }
+
+.sbar .links a {
+  display: flex;
+  padding: 5px;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.sbar .links a.active {
+  color: black;
+  background: var(--bg-color);
+  border-radius: 20px 0 0 20px;
+}

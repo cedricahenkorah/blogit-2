@@ -15,7 +15,7 @@ export default function FeedFilter({ currentFilter, changeFilter }) {
   };
 
   return (
-    <div className="project-filter bg-white rounded">
+    <div className="project-filter bg-white rounded shadow-lg">
       <nav>
         <p>views:</p>
         {filterList.map((f) => (

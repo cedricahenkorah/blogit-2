@@ -69,9 +69,12 @@ export default function BlogComments({ blog }) {
             required
             onChange={(e) => setNewComment(e.target.value)}
             value={newComment}
+            className="w-full mb-3 lg:mb-5 mt-2 p-2 lg:p-3 rounded-md border border-gray-200 focus:ring-offset-4 focus:ring-2"
           ></textarea>
         </label>
-        <button className="btn">Add comment</button>
+        <button className="btn bg-black py-2 text-white px-3">
+          Add comment
+        </button>
       </form>
     </div>
   );

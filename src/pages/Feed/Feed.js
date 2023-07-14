@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useCollection } from "../../hooks/useCollection";
 import FeedFilter from "./FeedFilter";
 import FeedList from "../../components/FeedList";
+import NavBlog from "../../components/NavBlog";
 
 // styles
 import "./Feed.css";
@@ -37,9 +38,9 @@ export default function Feed() {
 
   return (
     <>
-      <Navbar />
-      <div className="md:px-20 lg:pt-1 px-5 flex-grow">
-        <h2 className="md:text-3xl font-bold tracking-widest text-xl mt-2 lg:mt-5">
+      <NavBlog />
+      <div className="md:px-20 px-5 flex-grow bg-gray-50 min-h-screen">
+        <h2 className="pt-3 md:text-3xl font-bold tracking-widest text-xl lg:mt-0">
           Feed
         </h2>
         {error && <p className="error">{error}</p>}
